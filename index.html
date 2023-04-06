@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="main.css" />
+  <title>Results</title>
+</head>
+<body>
+  <h1>Results</h1>
+  <hr>
+  <!-- <span class="image-container"><img src="uni.jpg" alt="" /></span> -->
+  <div id="result">
+    <h2><%= rname %></h2>
+    <h2><%= rratings %></h2>
+  </div>
+  <script src="dbret.js"></script>
+  <script>
+    // retrieve query string parameters from URL
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+
+    // get form input values from query string parameters and display them
+    const input1Value = urlParams.get('input1');
+    const input2Value = urlParams.get('input2');
+    const dropdown1Value = urlParams.get('dropdown1');
+    const dropdown2Value = urlParams.get('dropdown2');
+    const floatInputValue = urlParams.get('floatInput');
+
+
+  </script>
+</body>
+</html>

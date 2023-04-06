@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="hello.css" />
+
+<form action="results.html" method="GET">
+    
+    <div class="container">
+        <ul id="results2"></ul>
+    <ul id="results1"></ul>
+    <label for="input1">Select Location</label>
+    <input type="text" id="input1" name="input1" onclick="showResults(1)" onkeyup="filterResults(event, 1)">
+    
+  
+    <label for="input2">Select Course</label>
+    <input type="text" id="input2" name="input2" onclick="showResults(2)" onkeyup="filterResults(event, 2)">
+    
+  
+    <label for="dropdown1">Dropdown 1:</label>
+    <select id="dropdown1" name="dropdown1">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select><br>
+  
+    <label for="dropdown2">Dropdown 2:</label>
+    <select id="dropdown2" name="dropdown2">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select><br>
+  
+    <label for="floatInput">Float Input:</label>
+    <input type="number" id="floatInput" name="floatInput" step="0.01"><br>
+  
+    <input type="submit" value="Submit">
+    </div>
+  </form>
+  <script src="javas.js"></script> 

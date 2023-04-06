@@ -1,0 +1,154 @@
+/* Set background color to #243b55 */
+body {
+    background-color: #243b55;
+  }
+  
+  /* Center the form */
+  form {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  /* Style the input fields */
+  input[type=text], select, input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #dcdcdc; /* Change to grey */
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the results table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #dcdcdc; /* Change to grey */
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  /* Style the autocomplete results */
+  .autocomplete-items {
+    position: absolute;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 99;
+    /* Set the width to 100% */
+    width: 100%;
+    background-color: #dcdcdc; /* Change to grey */
+  }
+  
+  /* Add curved edges to the first and last child */
+  .autocomplete-items div:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .autocomplete-items div:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .autocomplete {
+    background-color: #243b55;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .autocomplete-items {
+    background-color: #243b55;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .autocomplete-items div {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .autocomplete-items div:hover {
+    background-color: #1e324a;
+  }
+  
+  .selected-item {
+    background-color: #1e324a;
+  }
+
+  .container {
+  width: 80%;
+  margin: auto;
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+input[type=text], select, input[type=float] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background-color: #3d3d3d;
+  color: white;
+  font-size: 1.2rem;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Change the color of the box with the results */
+.results {
+  background-color: #243b55;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+}
